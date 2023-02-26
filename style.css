@@ -1,0 +1,147 @@
+.two{
+    width: 60px;
+    height: 60px;
+    background-color: antiquewhite;
+}
+ /*P{
+    width: 60px;
+    height: 60px;
+    background-color: antiquewhite;
+}*/
+a{
+    color: green;
+    text-decoration: none;
+}
+/* pseudo classes*/
+
+a:hover {
+    color: blue;
+}
+
+ a:visited { 
+     color: chartreuse; 
+ } 
+
+.input:checked + label {
+    color: brown;
+}
+/*div:empty{
+    border: 10px solid brown;
+} 
+
+/* pseudo elements */
+.p-one span {
+    background-color: aqua;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.p-two::first-letter{
+    background-color: aqua;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.p-three::first-line{
+    background-color: burlywood;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+::selection{
+    background-color: darkgray;
+    color: crimson;
+}
+.p-five::selection{
+    background-color:yellow;
+    color: red;
+}
+
+
+/* pseudo element part2 imp */
+.parent{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.one{
+    background-color: blueviolet;
+    color:white;
+    float:left;
+    padding:10px;
+    width: 600px;
+    position: relative;
+}
+.user{
+   font-size: 20px ; 
+   font-weight: bold;
+    padding: 30px;
+    background-color: brown;
+    color: aliceblue;
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+}
+/* border raduis*/
+
+.border-raduis {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    border-radius:30px 0px;
+}
+
+/*box shadow*/
+/* H.shadow |v.shadow | blur | spread | color | Inset */
+
+.box-shadow {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    border-radius:30px 0px;
+    box-shadow: 3px 3px 10px 0px yellow 
+    3px 3px 10px 0px red 
+    3px 3px 10px 0px black ;   
+
+}
+/* the box model and box sizing */
+
+*{
+   -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box ;
+}
+
+.parent2{
+    width: 600px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eee;
+}
+.one-1{
+    background-color: aqua;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 5px solid black;
+}
+.two-2{
+    background-color: blue;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+/* transition */
+.name { 
+    background-color: #eee;
+    width: 200px;
+    height: 100px;
+
+}  
+.name:hover {    
+
+    margin-left: 20px; ;
+}
